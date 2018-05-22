@@ -1,0 +1,222 @@
+html{
+    font-family: Helvetica, Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    padding-top: 50px;
+}
+
+.navbar .navbar-nav{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse{
+    text-align: center;
+}
+
+.nav .active a{
+    background: #bae0d2 !important;
+    color: black !important;
+}
+
+.jumbotron{
+    background-image: url("DSC_0137.JPG");
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 400px;
+    opacity: 0.7;
+}
+
+h1 span{
+    color: #bae0d2;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.vertical-center{
+    align-items: center;
+    display: flex;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+.btn{
+    margin: 2px;
+}
+
+.btn-primary{
+    background-color: #222 !important;
+    border-color: #222 !important;
+}
+
+.btn-primary:hover{
+    color: #222 !important;
+    background-color: #bae0d2 !important;
+    border-color: #bae0d2 !important;
+}
+
+hr.divider {
+	border: 0;
+	box-shadow: 0 10px 10px -10px #222 inset;
+    height: 10px;
+    width: 70%;
+}
+
+.about{
+    background-attachment: fixed;
+    background-color: #999;
+    background-image: url("aboutcats.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrap{
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.centerabout{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.panel-default > .panel-heading {
+    background-color: #DCDCDC !important;
+}
+
+.carousel-caption{
+    background-color: rgba(0,0,0,0.7);
+}
+
+.glyphicon{
+    color: #bae0d2;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.tile{
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+
+.container{
+    border: 1px solid black;
+    height: 100%;
+    margin: auto auto 50px auto;
+    min-height: 100%;
+    padding: auto 75px 70px 75px;
+}
+
+.resheader{
+    background-color: #222;
+    color: #bae0d2;
+}
+
+.btn-resume{
+    background-color: #bae0d2;
+    border-color: #bae0d2;
+    color: black;
+}
+
+.btn-resume:hover{
+    background-color: #DCDCDC;
+    border-color: #DCDCDC;
+    color: #222 !important;
+}
+
+.row .no-float {
+  display: table-cell;
+  float: none;
+}
+
+.skillsEdu{
+    background-color: #bae0d2;
+    height: 100%;
+}
+
+.skillsEdu h4 span{
+    background-color: black;
+    border-radius: 5px;
+    color: #DCDCDC;
+    padding: 5px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.btn-skills{
+    background-color: #DCDCDC;
+    border-color: #DCDCDC;
+    color: black;
+}
+
+.btn-skills:hover{
+    background-color: #222;
+    border-color: #222;
+    color: #bae0d2 !important;
+}
+
+.profExp{
+    background-color: #DCDCDC;
+    height: 100%;
+}
+
+.profExp h4 span{
+    background-color: black;
+    border-radius: 5px;
+    color: #bae0d2;
+    padding: 5px;
+}
+
+hr.resume {
+    border: 0;
+	border-top: 1px solid #bae0d2;
+    margin: 15px;
+    width: 90%;
+}
+
+
+.row-centered{
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.col-centered{
+    margin: 5px;
+    text-align: left;
+}
+
+.v-center{
+    align-items: center;
+    display: flex;
+}
+
+@media screen and (max-width: 768px){ 
+    .v-center{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
