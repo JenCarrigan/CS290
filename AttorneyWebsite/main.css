@@ -1,0 +1,194 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    min-height: 200vh;
+}
+
+p {
+    font-size: large;
+}
+
+.navbar {
+    
+    min-height: 80px !important;
+}
+
+.navbar-default {
+    background: transparent !important;
+    background-image: none;
+    border-color: transparent !important;
+    box-shadow: none;
+    transition: 500ms ease;
+}
+
+.navbar-default.scrolled {
+    background: rgb(235,235,235) !important;
+}
+
+.navbar-default.scrolled .nav > li > a {
+    color: rgb(0,86,119) !important;
+}
+
+.nav > li > a {
+    color: white !important;
+    font-size: medium;
+}
+
+.navbar-default .navbar-nav>.active> a, 
+.navbar-default .navbar-nav>.active> a:focus, 
+.navbar-default .navbar-nav>.active> a:hover,
+.navbar-default .navbar-nav>.active> a:active{
+    background: transparent !important; /* Anything you want */
+    border-bottom: 3px solid rgb(211,204,158);
+}
+
+.navbar-brand > img {
+    width: 160px;
+    height: 50px;
+}
+
+.jumbotron {
+    height: 570px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-box-shadow: 0 3px 50px 10px rgb(0,86,119);
+    -webkit-box-shadow: 0 3px 50px 10px rgb(0,86,119);
+    box-shadow: 0 3px 50px 10px rgb(0,86,119);
+}
+
+.homeBG {
+    background-image: url(FISH%20MARKET.JPG); 
+}
+
+.attyBG {
+    background-image: url(woman.png);
+}
+
+h2 {
+    color: rgb(211,204,158) !important;
+    font-size: 280% !important;
+}
+    
+.rowPad {
+    margin: 5px;
+}
+
+.col-sm-4 > a > img:hover {
+    background-color: rgb(211,204,158);
+    -moz-box-shadow: inset 0 3px 30px 10px rgb(0,86,119);
+    -webkit-box-shadow: inset 0 3px 30px 10px rgb(0,86,119);
+    box-shadow: inset 0 3px 30px 10px rgb(0,86,119);
+}
+
+.tooltip-arrow,
+.blueTooltip + .tooltip > .tooltip-inner {
+    background-color: rgb(0,86,119);
+    font-size: large;
+}
+
+/*Start YT*/
+
+.youtube-carousel{
+  border: 4px solid rgb(0,86,119);
+}
+
+.video-container { 
+   position: relative; /* keeps the aspect ratio */ 
+   padding-bottom: 56.25%; /* fine tunes the video positioning */ 
+   padding-top: 60px; overflow: hidden;
+   margin-bottom: -1px;
+   margin-right: -1px;   
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;  
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+}
+
+.carousel-caption {
+    overflow: hidden;
+}
+
+.secondSection {
+    background-color: rgb(0,86,119);
+    box-shadow: 0 3px 30px 10px rgb(0,86,119);
+    margin-bottom: 5%;
+    margin-top: 5%;
+    -moz-box-shadow: 0 3px 30px 10px rgb(0,86,119);
+    -webkit-box-shadow: 0 3px 30px 10px rgb(0,86,119);
+}
+
+.white{
+    color: white;
+}
+
+hr.divider {
+	border: 0;
+	box-shadow: 0 10px 10px -10px rgb(0,86,119) inset;
+    height: 10px;
+    width: 100%;
+}
+
+.panel-default > .panel-heading {
+    background: transparent !important;
+}
+
+.panel {
+    border: 0 !important;
+}
+
+.panel-heading > h4 {
+    font-size: 17px;
+}
+
+.panel-body {
+    font-size: 16px;
+}
+
+ul > li {
+    font-size: large;
+}
+
+.vidAlgin {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    margin-top: 10%;
+    width: 100%;
+    
+}
+
+#scrollbox {
+    height: 200px;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 40%;
+}
+
+.thirdSection{
+    text-align: center;
+}
+
+.col-md-8 > ul {
+    margin-left: 25%;
+}
+
+
+
+
+
+
+
