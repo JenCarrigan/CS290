@@ -1,0 +1,17 @@
+
+
+<h1>Edit Your Exercise</h1>
+
+<form action="/updateBack">
+    
+    Exercise Name: <input type="text" name="exercise" id="exercise" value="{{results.name}}"><br>
+    Reps (number): <input type="number" name="reps" placeholder="1" value="{{results.reps}}"><br>
+    Weight (number): <input type="number" name="weight" placeholder="3" value="{{results.weight}}"><br>
+    
+    Date: <input type="date" name="date" id="date">
+    
+    <input type="hidden" name="id" value={{results.id}}>
+    <a href="/">
+        <input type="submit" name="updateExercise" value="Update" id="updateSubmit">
+    </a>
+</form>
